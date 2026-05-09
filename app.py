@@ -13,7 +13,7 @@ st.dataframe(car_data.head(20))
 
 # HISTOGRAMA
 
-st.write('Kilometraje de ehículos 🚗')
+st.write('Kilometraje de vehículos 🚗')
 
 hist_button = st.button('Construir histograma')
 
@@ -42,7 +42,7 @@ build_scatter = st.button('Construir gráfica de dispersión')
 
 if build_scatter:
 
-    st.write('Relación entre ilometraje y precio')
+    st.write('Relación entre Kilometraje y precio')
 
     fig_scatter = go.Figure(
         data=[go.Scatter(
